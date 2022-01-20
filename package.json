@@ -1,0 +1,16 @@
+{
+  "name": "rest-api-jest-pactum",
+  "version": "1.0.0",
+  "description": "Sample project on testing RESTAPI's with Pactum library",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Dimitar Stojanovski",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.4.7",
+    "pactum": "^3.1.2"
+  }
+}
