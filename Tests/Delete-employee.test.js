@@ -18,7 +18,7 @@ describe('Creating Delete Tests', ()=>{
         
     });
 
-    test('Verify response data when deleting an item', async()=>{
+    test('Verify response data when deleting an item from employees', async()=>{
         await pactum.spec()
         .delete(urlEndpoint)
         .expectJson({
