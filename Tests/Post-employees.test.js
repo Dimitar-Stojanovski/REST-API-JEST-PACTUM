@@ -20,7 +20,7 @@ describe('Tests for creating an employee and verifying response', ()=>{
     test('Check the response body when creating an employee', async()=>{
         let createEmployee = {
             "name":"John Doe",
-            "salary":"33000",
+            "salary":"330000",
             "age":"33"}
 
             await pactum.spec()
